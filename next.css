@@ -46,6 +46,8 @@ body:before {
 
 h2 {
     color: pink;
+    position: relative;
+    ;
 }
 
 #one {
@@ -77,12 +79,12 @@ h2 {
     background-size: cover;
     color: gainsboro;
     overflow: hidden;
-    display: block;
+    display: flex;
 }
 
 .silver {
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 15%;
     -webkit-transform: translate(-50%, -50%);
     -o-transform: (-50, -50%);
@@ -92,12 +94,13 @@ h2 {
     padding: 80px 40px;
     background: rgba(240, 234, 234, 0.151);
     list-style: none;
+    cursor: pointer;
 }
 
 .gold {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 55%;
+    left: 85%;
     -webkit-transform: translate(-50%, -50%);
     -o-transform: (-50, -50%);
     transform: translate(-50%, -50%);
@@ -110,16 +113,38 @@ h2 {
 
 .diamond {
     position: absolute;
-    top: 70%;
-    left: 85%;
+    top: 55%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -o-transform: (-50, -50%);
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 500px;
+    height: 550px;
     padding: 80px 40px;
     background: rgba(240, 234, 234, 0.151);
     list-style: none;
 }
 
-li {}
+.plans_model {
+    background-color: pink;
+    opacity: 0.6;
+    display: block;
+    font-style: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+.quote1 {
+    text-align: left;
+    display: block;
+    color: burlywood;
+    position: absolute;
+    font-size: 30px;
+}
+
+.quote2 {
+    text-align: right;
+    display: block;
+    color: burlywood;
+    font-size: 30px;
+}
